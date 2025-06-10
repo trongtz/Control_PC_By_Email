@@ -1,0 +1,71 @@
+[Hướng dẫn cú pháp lệnh đối với từng chức năng]
+
+1. Đăng ký quyền điều khiển máy tính cho gmail
+Cú pháp: add thitkhomamruot7749
+Chú ý: ứng dụng chỉ chấp nhận những email của các mail nằm trong danh sách 
+
+2. Mở webcam và quay video trong khoảng thời gian cho trước
+Cú pháp: recording [space] <thời gian muốn quay>
+Ví dụ: recording 5 
+=> Quay video trong 5 giây
+
+3. Chụp ảnh màn hình 
+Cú pháp: screenshot
+=> Chụp màn hình ngay thời điểm nhận lệnh
+
+4. Liệt kê các ứng dung đã cài đặt
+Cú pháp: listapp
+
+5. Mở ứng dụng đã cài đặt trong máy
+Cú pháp: open [space] <tên máy đọc của ứng dụng>
+Ví dụ: open paint
+=> Mở ứng dụng paint 
+Lưu ý: Tên của ứng dụng mà máy đọc sẽ khác tên ứng dụng hiển thị cho người dùng, hãy nhập đúng tên
+
+6. Sao chép file từ đường dẫn cho trước
+Cú pháp: copyfile [space] <đường dẫn file muốn copy> [space] <đường dẫn folder muốn copy đến>
+Ví dụ: copyfile D:\\take.txt C:\\Users\\Public
+Lưu ý: đường dẫn nhập vào phải là "\\" thay vì "\"
+
+7. Xóa file từ đường dẫn cho trước
+Cú pháp: deletefile [space] <đường dẫn file muốn xóa>
+Ví dụ: deletefile D:\\take.txt
+Lưu ý: đường dẫn nhập vào phải là "\\" thay vì "\"
+
+8. Shut down và restart máy
+Cú pháp: shutdown
+=> Tắt máy
+Cú pháp: restart
+=> Khởi động lại máy
+
+9. Liệt kê các tiến trình đang chạy trong máy
+Cú pháp: listprocess
+
+10. Đóng tiến trình đang chạy trong máy
+Cú pháp: stopprocess [space] <thứ tự của process muốn đóng>
+Ví dụ: stopprocess 1
+=> đóng tiến trình thứ nhất (thứ tự dựa vào danh sách các tiến trình có ở lệnh listprocess)
+
+11. Lưu phím trong khoảng thời gian cho trước
+Cú pháp: keylogger [space] <thời gian muốn lưu phím>
+Ví dụ: keylogger 5
+=> Lưu phím trong 5 giây
+
+12. Khóa phím trong khoảng thời gian cho trước
+Cú pháp: lockkeyboard [space] <thời gian muốn khóa>
+Ví dụ lockkeyboard 5
+=> Khóa phím trong 5 giây
+
+13. Kiểm tra pin và trạng thái pin
+Cú pháp: checkbattery
+
+14. Kiểm tra bộ nhớ ổ đĩa
+Cú pháp: checkstorage
+
+15. Lấy file từ đường dẫn cho trước
+Cú pháp: takefile [space] <đường dẫn file muốn lấy>
+Ví dụ: takefile D:\\take.txt
+=> Lấy file có đường dẫn là D:\\take.txt và gửi về client
+
+16. Dừng toàn bộ ứng dụng điều khiển
+Cú pháp: stopaccess
